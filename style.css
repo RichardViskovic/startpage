@@ -43,3 +43,21 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
+
+#iconbar {
+  background-color: blue;
+  display: inline;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.faded {
+  color: #222;
+}
