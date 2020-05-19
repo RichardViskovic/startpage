@@ -68,5 +68,5 @@ function checkTime(i) {
 function simpleSearch() {
   input = document.getElementById('search').value;
   let searchUrl = SEARCHES[currentsearch][1] + input;
-  window.location.href = searchUrl;
+  window.open(searchUrl, '_blank');
 }
